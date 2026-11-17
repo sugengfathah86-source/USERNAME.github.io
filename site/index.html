@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fathah Ikhwansyah — Portofolio</title>
+<meta name="description" content="Portofolio Fathah Ikhwansyah, mahasiswa Teknik Komputer UNSOED. Embedded systems, IoT, dan web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">FI<span>.</span></a>
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#skill">Skill</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">Teknik Komputer · UNSOED</p>
+    <h1>Halo, saya <em>Fathah Ikhwansyah</em>.</h1>
+    <p class="lead">Saya membangun sistem yang benar-benar jalan, dari firmware mikrokontroler sampai aplikasi web yang sudah di-deploy.</p>
+    <div class="cta">
+      <a class="btn primary" href="#proyek">Lihat proyek</a>
+      <a class="btn" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang</h2>
+    <p>Mahasiswa Teknik Komputer Universitas Jenderal Soedirman (kurikulum 2024) dengan peminatan <strong>Komputer Medis</strong>, berbasis di Bekasi. Minat saya ada di embedded systems, IoT, pemrograman web, basis data, dan infrastruktur server.</p>
+  </section>
+
+  <section id="proyek">
+    <h2>Proyek</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">Embedded</span>
+        <h3>Fire Guard v2.0</h3>
+        <p>Sistem deteksi dini kebakaran berbasis ESP32 dengan sensor gas dan api, aktuator servo serta relay, dan multitasking FreeRTOS.</p>
+        <ul class="stack"><li>ESP32</li><li>FreeRTOS</li><li>MQ-2</li><li>KY-026</li></ul>
+        <a class="link" href="https://github.com/USERNAME/fire-guard" target="_blank" rel="noopener">Lihat repo →</a>
+      </article>
+      <article class="card">
+        <span class="tag">Web</span>
+        <h3>KampusMart</h3>
+        <p>E-commerce kampus proyek kelompok dengan 24 fitur, termasuk login Google OAuth yang dibatasi untuk email mahasiswa UNSOED.</p>
+        <ul class="stack"><li>CodeIgniter 3</li><li>MySQL</li><li>Google OAuth</li></ul>
+        <a class="link" href="https://github.com/USERNAME/kampusmart" target="_blank" rel="noopener">Lihat repo →</a>
+      </article>
+      <article class="card">
+        <span class="tag">ERP</span>
+        <h3>Tekkom Retail ERP</h3>
+        <p>Implementasi Odoo ERP untuk perusahaan simulasi pada proyek akhir Sistem Informasi Manajemen. Peran saya di divisi Finance/Payment.</p>
+        <ul class="stack"><li>Odoo</li><li>ERP</li><li>Finance</li></ul>
+        <a class="link" href="https://github.com/USERNAME/tekkom-retail-erp" target="_blank" rel="noopener">Lihat repo →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="skill">
+    <h2>Skill</h2>
+    <div class="skills">
+      <div><h3>Embedded &amp; IoT</h3><p>ESP32, ESP8266, Arduino, C/C++, FreeRTOS</p></div>
+      <div><h3>Web</h3><p>PHP, Laravel, CodeIgniter, HTML/CSS, JavaScript</p></div>
+      <div><h3>Data &amp; Server</h3><p>MySQL, Linux, deployment, Odoo ERP</p></div>
+      <div><h3>Keamanan</h3><p>Reconnaissance dan network mapping dengan Nmap</p></div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Terbuka untuk kolaborasi dan magang.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:EMAIL_KAMU@example.com">Email</a>
+      <a class="btn" href="https://linkedin.com/in/LINKEDIN_KAMU" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="y"></span> Fathah Ikhwansyah</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
